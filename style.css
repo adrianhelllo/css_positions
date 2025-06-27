@@ -94,7 +94,27 @@ header {
 
 footer {
     background-color: #000;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%
+}
+
+a:visited {
+    color: #fff;
+}
+
+.social {
+    background-color: royalblue;
+    color: #fff;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 1;
+    border-radius: 5vw;
+}
+
+html {
+    scroll-behavior: smooth;
 }

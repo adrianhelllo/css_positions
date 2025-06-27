@@ -39,7 +39,7 @@ body {
     background-color: #00f;
     position: absolute; /* default for all elements */
     top: 0;
-    left: 0; /* without a relative parent container, the element takes the browser window as reference. */
+    left: -10000px; /* without a relative parent container, the element takes the browser window as reference. */
 }
 
 .relative {
@@ -54,11 +54,11 @@ body {
     position: fixed;
     top: 100px;
     left: 50px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .sticky {
     background-color: #000;
     position: sticky;
-    top: 100px;
+    top: 0;
 }

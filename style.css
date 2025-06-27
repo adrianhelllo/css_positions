@@ -32,3 +32,8 @@ body {
     color: #fff;
     padding: 1rem;
 }
+
+.absolute {
+    background-color: #00f;
+    position: static; /* default for all elements */
+}

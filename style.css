@@ -35,5 +35,7 @@ body {
 
 .absolute {
     background-color: #00f;
-    position: static; /* default for all elements */
+    position: absolute; /* default for all elements */
+    top: 0;
+    left: 0; /* without a relative parent container, the element takes the browser window as reference. */
 }

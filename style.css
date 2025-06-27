@@ -39,7 +39,7 @@ body {
     background-color: #00f;
     position: absolute; /* default for all elements */
     top: 0;
-    left: -10000px; /* without a relative parent container, the element takes the browser window as reference. */
+    left: 0; /* without a relative parent container, the element takes the browser window as reference. */
 }
 
 .relative {
@@ -61,4 +61,40 @@ body {
     background-color: #000;
     position: sticky;
     top: 0;
+}
+
+/* next section */
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: #00f;
+}
+.green {
+    background-color: #0f0;
+}
+.red {
+    background-color: #f00;
+}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+
+footer {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }

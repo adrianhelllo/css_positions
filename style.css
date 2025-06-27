@@ -17,6 +17,8 @@ body {
     width: 75vw;
     height: 85vh;
     margin: 40px auto;
+    /* setting it to be the relative ancestor */
+    position: relative;
 }
 
 .inner-container {

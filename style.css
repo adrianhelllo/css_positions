@@ -54,5 +54,11 @@ body {
     position: fixed;
     top: 100px;
     left: 50px;
-    z-index: -1;
+    z-index: 1;
+}
+
+.sticky {
+    background-color: #000;
+    position: sticky;
+    top: 100px;
 }
